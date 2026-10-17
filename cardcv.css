@@ -111,6 +111,10 @@ margin-left:-60px;
 	padding: 10px ;
 		display:flex;
 }
+.active a
+{
+	background: var(--bg-color);
+}
 .buy-btn {
 	display: flex;
 	justify-content: space-between;
@@ -160,7 +164,7 @@ margin-left:-60px;
 }
 
 .buy-btn a:hover, .main-menu-list a:hover {
-	background: var(--hover-color);
+	background: var(--bg-color);
 }
 
 .buy-btn a:hover::before, .main-menu-list a:hover::before {
