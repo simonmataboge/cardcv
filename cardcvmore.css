@@ -254,11 +254,11 @@ margin-top:-580px;
 	transition: 0.4s;
 	position: absolute;
 	z-index: 1;
-	color: var(--bg-color);
+	color: var(--main-color);
 }
 
 .main-menu-list a:hover {
-	background: var(--hover-color);
+	background: var(--bg-color);
 }
 
 .main-menu-list a:hover::before {
@@ -309,7 +309,7 @@ margin-top:-580px;
 }
 
 .buy-btn a:hover {
-	background: var(--hover-color);
+	background: var(--bg-color);
 }
 
 .buy-btn a:hover::before {
