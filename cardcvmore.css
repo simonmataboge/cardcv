@@ -206,7 +206,7 @@ margin-top:-580px;
 }
 .active a
 {
-	color: var(--bg-color);
+	background-color: var(--bg-color);
 }
 .main-menu-list a
 {
@@ -241,7 +241,7 @@ margin-top:-580px;
     }
 }
  .main-menu-list a:hover {
-	color: var(--bg-color);
+	background-color: var(--bg-color);
 	text-decoration: none;
 }
 
