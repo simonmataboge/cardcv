@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" href="cardcvmore.css">
+    <script type="text/javascript" src="jquery-3.3.1.slim.min.js"></script>
+    <script type="text/javascript" src="popper.min.js"></script>
+    <script type="text/javascript" src="bootstrap.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <meta charset="utf-8" />
+    <title>Website_Privacy_Policy</title>
+</head>
+  <body> 
+			<div id="main-menu">
+				<div class="main-menu">
+					<ul class="main-menu-list">	
+    				<li><a href="cardcv.html">Home</a></li>
+						<li><a href="cardcvmore.html">Resume</a></li>
+						<li><a href="cardcvskills.html">Skills</a></li>
+						<li><a href="cardcvportfolio.html">Portfolio</a></li>
+						<li><a href="cardcvblog.html">Blog</a></li>
+						<li><a href="cardcvcontact.html">Contact</a></li>
+					</ul>
+				</div>
+		</div>
+		<div id="resume">
+         <div class="book">
+            <div class="book-page page-left">
+                <div class="profile-page">
+                    <img src="linkedin-sales-navigator-EI50ZDA-l8Y-unsplash.jpg" alt="" />
+                    <h1>Hi! I am</h1> <h3>Simon Mataboge</h3>
+
+
+                    <p>
+                        The word I would use to describe myself is <b>"Ambitious"</b>.
+                        I particularly enjoy working as part of a team, I find solutions,
+                        get creative, solve problem without needing help from coworkers
+                        or managers. I know when to ask for help and I do not keep quiet if
+                        I need assistance
+                    </p>
+	                    <div class="social-icons">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-youtube-play"></i></a>
+                    </div>
+                </div>
+            </div>
+					</div>
+      
+      
+           <div class="book-resume">
+            <div class="book-page-resume">
+                <div class="profile-page-resume">
+									<h3>BLOG</h3>
+
+	                    <div class="content">
+												<div class="content-box-blog">
+													<img src="map.png" alt="" />
+										<div class="btn-box">
+                        <a href="#" class="buy-btn ">Read More</a>
+                    </div>
+												</div>
+												<div class="content-box-blog">
+													<div class="content">
+														<h6><i class='fa fa-map-marker'></i> Address</h6>   
+														<p>564 Block B Letlhabile 0264</p>
+														<h6><i class='fa fa-phone'></i> Phone Number</h6> 
+														<p>012 3456789</p>
+														<h6><i class='fa fa-envelope'></i> Email Address</h6>
+														<p>info@mgegroup.co.za</p>
+														</div>
+													
+												</div>
+												<div class="content-box-blog">
+													<form method="post">
+                    <h6>Get Digital</h6>
+
+                    <ul>
+                        <div class="col-75">
+                            <input type="text" id="name" name="name" placeholder="Name" />
+                        </div>
+                    </ul>
+                    <ul>
+                        <div class="col-75">
+                            <input type="text" id="surname" name="surname" placeholder="Email" />
+                        </div>
+                    </ul>
+                    <ul>
+                        <div class="col-75">
+                            <textarea type="text" id="message" name="message" placeholder="Message"></textarea>
+                        </div>
+                    </ul>
+                    <div class="form-group">
+                        <button type="submit">Send</button>
+                    </div>
+                </form>
+												</div>
+                    </div>
+                </div>
+            </div>
+					</div>
+		</div>
+
+      </body> 
+			<script>
+	ScrollOut({
+  onShown: function(el) {
+    // use the web animation API
+    el.animate([{ opacity: 0 }, { opacity: 1 }], 1000);
+  },
+  onHidden: function(el) {
+    // hide the element initially
+    el.style.opacity = 0;
+  }
+});
+	</script>
+	<script>
+  ScrollOut();
+</script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+<script src="js/scroll-out.js"></script>
+<script type="text/javascript">
+    ScrollOut({
+        targets: '#home, #about, #services, #process, #skills, #portfolio, #contacts'
+		
+    })
+</script>
+	<script>
+	ScrollOut({
+  onShown(el) {
+    el.classList.add("animated");
+  }
+});
+	</script>
+	
+	<script>
+	ScrollOut({
+  onShown: function(el) {
+    // remove the class
+    el.classList.remove("animated");
+
+    // force reflow
+    void el.offsetWidth;
+
+    // re-add the animated cl
+    el.classList.add("animated");
+  }
+});
+	</script>
+</html>
