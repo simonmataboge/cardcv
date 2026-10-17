@@ -204,6 +204,10 @@ margin-top:-580px;
 	width: 340px;
 	margin-left: 10px;
 }
+.active a
+{
+	color: var(--bg-color);
+}
 .main-menu-list a
 {
 	text-align: center;
@@ -237,7 +241,7 @@ margin-top:-580px;
     }
 }
  .main-menu-list a:hover {
-	color: var(--main-color);
+	color: var(--bg-color);
 	text-decoration: none;
 }
 
