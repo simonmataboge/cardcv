@@ -259,6 +259,7 @@ margin-top:-580px;
 
 .main-menu-list a:hover {
 	background: var(--bg-color);
+	color: var(--main-color);
 }
 
 .main-menu-list a:hover::before {
