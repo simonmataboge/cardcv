@@ -219,6 +219,7 @@ margin-top:-580px;
 	padding: 10px ;
 	display:flex;
 	margin-left: 10px;
+	 background: var(--main-color)
 	
 }
 @media screen and (max-width:1000px ) {
