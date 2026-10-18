@@ -8,15 +8,6 @@
     --pages-color: linear-gradient(90deg, #fff, #ddd);
     --box-shadow: 0, 0 8px rgba(0, 0, 0, .2);
 }
-	[data-scroll] {
-  transition: opacity 2s;
-}
-[data-scroll="in"] {
-  opacity: 1;
-}
-[data-scroll="out"] {
-  opacity: 0;
-}
 .main-menu
 {
 	width:130px;
@@ -208,17 +199,7 @@ margin-top:-580px;
 {
 	background-color: var(--bg-color);
 }
-.main-menu-list a
-{
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-	margin-top: 0px;
-	margin-left: 10px;background: var(--main-color);
-	color: white;
-	padding: 10px ;
-		display:flex;
-}
+
 .main-menu-list a{
 	width: 140px;
 	height: 40px;
