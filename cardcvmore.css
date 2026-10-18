@@ -200,7 +200,7 @@ margin-top:-580px;
 	background-color: var(--bg-color);
 }
 
-.buy-btn a, .main-menu-list a{
+ .main-menu-list a{
 	width: 140px;
 	height: 40px;
 	justify-content: center;
