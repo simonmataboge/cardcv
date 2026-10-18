@@ -198,6 +198,7 @@ margin-top:-580px;
 .actives a
 {
 	background-color: var(--bg-color);
+	color: var(--main-color);
 }
 
  .main-menu-list a{
